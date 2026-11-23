@@ -38,6 +38,7 @@ Las credenciales de la base de datos **no** están en el repo.
 Un cron diario genera backups de la web y de la base de datos, con la fecha en el nombre del archivo. Se conservan los últimos 5 (el sexto sobreescribe al primero) y se suben por FTP al servidor de archivos, cerrando la conexión al terminar.
 
 Correr backup: /usr/local/bin/backup_pizzeria.sh
+
 Ver resultado: ls -l /var/backups/pizzeria
 
 ## Estructura del repositorio
